@@ -1,0 +1,170 @@
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    height:2rem;
+    background: white;
+    box-shadow: 0px 2px 20px grey;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 1rem 0 0.5rem 0;
+    z-index: 100;
+}
+
+nav a {
+    text-decoration: none;
+    color:black;
+}
+
+#nav-name {
+    margin-left: 1rem;
+    width:12rem;
+    text-align: center;
+}
+
+#nav-name span
+{
+    color: #0066FF;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline;
+}
+
+#nav-name a {
+    text-decoration: none;
+}
+
+#nav-name:hover {
+    background-color: rgb(128,128,128,0.4);
+}
+
+
+.nav-items span{
+    display:inline;
+    padding-right: 2rem;
+}
+
+main {
+    margin-top: 7rem;
+    margin-left: 1rem;
+}
+
+.Intro {
+    height:85vh;
+}
+
+.Intro h1{
+    font-size: 5rem;
+    color:black;
+}
+
+.brief {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    width:50%;
+}
+
+#img1 img{
+    position:fixed;
+    bottom:1rem;
+    right:1rem;
+    height:2.5rem;
+}
+
+#img2  img{
+    position:fixed;
+    bottom:4.2rem;
+    right:1rem;
+    height:2.5rem;
+}
+
+/* Styling the Skills section */
+.skills h1 {
+    padding-top: 4rem;
+    font-size: 3rem;
+    margin-left: 1rem;
+    color:#0066FF;
+}
+
+/* designing subskills under the skill section */
+
+.subSkills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subSkills p {
+    width:40%;
+    font-size: 2rem;
+}
+
+#subSkillsHeading {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.subSkills img {
+    height:20rem;
+    border-radius: 1rem;
+}
+
+/* Now designing the technology part */
+.technologies {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding : 12rem 0.5rem 0rem 0.5rem;
+    margin:auto;
+    margin-bottom: 20vh;
+}
+
+.techStack {
+    display:flex;
+    margin-bottom: 1rem;
+}
+.techStack img {
+    height:5rem;
+    width:5rem;
+}
+
+.techStack div h2 {
+    position:relative;
+    bottom : 1.5rem;
+    left:0.5rem;
+}
+
+.techStack div p {
+    width:70%;
+    font-size: 0.8rem;
+    position:relative;
+    bottom:2rem;
+    left:0.5rem;
+}
+
+/* designing the footer */
+footer {
+    height: 40vh;
+    background-color: #333333;
+    color:white;
+    width:100%;
+    padding-left: 1rem;
+}
+
+footer h2 {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+footer img {
+    height:2rem;
+    margin-right: 1rem;
+    border-radius: 0.4rem;
+    background-color: white;
+}
+
